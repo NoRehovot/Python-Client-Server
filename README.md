@@ -3,7 +3,7 @@
 
 # Features
 
-  - Using the client_side.py application, users can find a server and communicate with it using TCP/IP. 
+  - Using the client_side.exe application, users can find a server and communicate with it using TCP/IP. 
   - Clients automatically connect to a server in their LAN when opening the application (if there is a running server).
   - Clients can communicate with the server in a message-echo format (client sends ‘hello’, server responds with ‘hello’).
   - Clients can communicate with all other clients connected to their server via the ‘broadcast’ command or broadcast mode.
@@ -14,8 +14,8 @@
  
 # Usage
 
-  - Set up a server by running server_side.py.
-  - Run client_side.py to open the client application.
+  - Set up a server by running server_side.exe.
+  - Run client_side.exe to open the client application.
   ### Using the client app:
 
   ![image](https://github.com/NoRehovot/client-server/blob/main/example.png)
