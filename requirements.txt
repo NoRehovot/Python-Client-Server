@@ -1,0 +1,11 @@
+# Required modules for client_side.py & server_side.py
+    
+    from scapy.all import *
+    from socket import *
+    from cryptography.fernet import Fernet
+    import subprocess
+    from threading import Thread
+    import os
+    from tkinter import *
+    import time
+    import select
