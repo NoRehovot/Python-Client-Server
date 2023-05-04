@@ -16,7 +16,7 @@
   -	Run client_side.py to open the client application.
   Using the client app:
 
-![image](https://github.com/NoRehovot/client-server/example.png)
+![image](https://github.com/NoRehovot/client-server/blob/main/example.png)
 
   -	On the top left side, see which server you are currently connected to.
   -	Under the server’s name, you can see the chat. This will fill with the messages the user sends.
