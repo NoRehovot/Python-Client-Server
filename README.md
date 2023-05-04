@@ -14,19 +14,19 @@
  
 # Usage
 
-    -	Set up a server by running server_side.py.
-    -	Run client_side.py to open the client application.
+    Set up a server by running server_side.py.
+    Run client_side.py to open the client application.
     Using the client app:
 
   ![image](https://github.com/NoRehovot/client-server/blob/main/example.png)
 
-    -	On the top left side, see which server you are currently connected to.
-    -	Under the server’s name, you can see the chat. This will fill with the messages the user sends.
-    -	Underneath is the message box. Use this to communicate with the server and receive an echo response (or send a command).
-    -	To the right of the message box is the Broadcast Mode button. Use this button to communicate with the clients that are connected to the server in a group chat format. After clicking on the button, any message you send will be sent to the other clients, and the button will switch to ‘Exit Broadcast’
-    -	Beneath the message box is the available servers list, which shows the client all the running servers in the LAN. In parentheses is the number of clients that are connected to the available server. the arrow indicates the server that the user is connected to. This list updates in real-time every 5 seconds.
-    -	To the right is the user guide. This explains every command and practical feature the client can use.
-    -	Under the user guide is the ‘Switch To Selected Server’ and ‘Refresh Available Servers’ buttons. Click on a server from the available server list and then on the ‘Switch To Selected Server’ button to end communication with current server and switch to the selected one. Use ‘Refresh Available Servers’ to manually update the available servers list. 
+    On the top left side, see which server you are currently connected to.
+    Under the server’s name, you can see the chat. This will fill with the messages the user sends.
+    Underneath is the message box. Use this to communicate with the server and receive an echo response (or send a command).
+    To the right of the message box is the Broadcast Mode button. Use this button to communicate with the clients that are connected to the server in a group chat format. After clicking on the button, any message you send will be sent to the other clients, and the button will switch to ‘Exit Broadcast’
+    Beneath the message box is the available servers list, which shows the client all the running servers in the LAN. In parentheses is the number of clients that are connected to the available server. the arrow indicates the server that the user is connected to. This list updates in real-time every 5 seconds.
+    To the right is the user guide. This explains every command and practical feature the client can use.
+    Under the user guide is the ‘Switch To Selected Server’ and ‘Refresh Available Servers’ buttons. Click on a server from the available server list and then on the ‘Switch To Selected Server’ button to end communication with current server and switch to the selected one. Use ‘Refresh Available Servers’ to manually update the available servers list. 
     Use enter button to send a message.
     Use up and down arrows to navigate message history.
 
@@ -40,8 +40,8 @@
     broadcast (followed by any message): sends the message to all other clients that are connected to the server (use this or the broadcast mode button for the same effect). 
 
 # How does the client find a server?
-  -	Client sends broadcast message to the LAN with a signature, and the client IP and port.
-  -	Server spots the client’s signature and replies with the server IP and port.
-  -	Client connects to the server using a TCP socket and starts communicating.
+    Client sends broadcast message to the LAN with a signature, and the client IP and port.
+    Server spots the client’s signature and replies with the server IP and port.
+    Client connects to the server using a TCP socket and starts communicating.
 
 ### Enjoy the app!
