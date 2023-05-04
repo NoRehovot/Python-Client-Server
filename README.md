@@ -1,4 +1,4 @@
-# Readme for Client-Server Applications
+# Client-Server Applications
   This app allows clients to connect to nearby servers in their Local Area Network, and server operators to set up their own servers in the LAN.
 
 # Features
